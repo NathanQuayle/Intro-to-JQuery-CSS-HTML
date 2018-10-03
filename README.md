@@ -1,10 +1,10 @@
 # HTML
 
-`id` in HTML must be a unique identifier. Two elements can **NOT** share the same `id`!
+`id` in HTML must be a unique `selector`. Two elements can **NOT** share the same `id`!
 ```html
 <div id="must-be-unique"></div>
 ```
-`class` in HTML is used to represent a repeated style. As many elements as you want can share the same `class` tag.
+`class` in HTML is used to represent a repeated `selector`. As many elements as you want can share the same `class` tag.
 ```html
 <div class="can-be-repeated"></div>
 ```
