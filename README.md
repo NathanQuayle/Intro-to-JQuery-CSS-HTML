@@ -90,7 +90,7 @@ $('div > p') // Will select all p elements that are right after a div element
 ```
 Now that you know how to *hopefully* select elements you can start using JQuery to manipulate the [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction#What_is_the_DOM), and CSS to style.
 ## Using JQuery for 'advanced' stuff
-We can use `JQuery` to add [event bindings](https://learn.jquery.com/events/handling-events/). The following code will make it so anytime a `button` is `click`ed the `anonymous` `callback` function will be called. In this case it'll give you a nice little alert.
+We can use `JQuery` to add [event bindings](https://learn.jquery.com/events/handling-events/). The following code will make it so anytime a `button` is `click`ed the `anonymous` `callback` function will be called. In this case it'll give you a nice little [alert](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert).
 ```js
 // script.js
 
